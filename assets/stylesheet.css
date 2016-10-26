@@ -67,12 +67,12 @@ nav ul {
     list-style-type: none;
     overflow: hidden;
     float:right;
-
+    padding: 20px, 8px;
 }
 nav li {
     display: inline;
     text-align: center;
-    padding: 30px 8px;
+
 }
 nav .btn {
   background-color: #4684ED;
@@ -84,6 +84,7 @@ nav .btn {
   display: inline-block;
   font-size: 12px;
   font-weight: bold;
+  border-radius: 2px;
 }
 
 /*      Logo          */
@@ -102,17 +103,27 @@ form {
   display:block;
   margin: auto;
   width: 100%;
+  -webkit-appearance: none;
   padding-bottom: 10px;
-
+  border: #F2F2F2;
 }
-.btn {
-  margin: 5px;
+form .btn {
+  background-color: #F2F2F2;
+  border: none;
+  color: grey;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
 }
 /*      Footer       */
 footer ul {
     list-style-type: none;
     overflow: hidden;
     background-color: #F2F2F2;
+    color: grey;
     position: fixed;
     bottom: 0;
     width: 100%;
