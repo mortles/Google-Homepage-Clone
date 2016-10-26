@@ -83,3 +83,17 @@ nav li {
   padding-top: 200px;
   padding-left: 200px;
 }
+/*      Search Bar         */
+form {
+  width:500px;
+  margin:50px auto;
+}
+.searchBox {
+  display:block;
+  margin: auto;
+  width: 100%;
+
+}
+.btn {
+  margin: 5px;
+}
