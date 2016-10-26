@@ -72,8 +72,18 @@ nav ul {
 nav li {
     display: inline;
     text-align: center;
-    padding: 22px 8px;
-    
+    padding: 30px 8px;
+}
+nav .btn {
+  background-color: #4684ED;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 /*      Logo          */
