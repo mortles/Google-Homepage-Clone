@@ -35,6 +35,9 @@ body {
 ol, ul {
   list-style: none;
 }
+li {
+  display: inline;
+}
 blockquote, q {
   quotes: none;
 }
@@ -47,4 +50,38 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+li a {
+  text-decoration: none;
+  color: black;
+
+}
+/* Change the link to underline*/
+li a:hover {
+    text-decoration: underline;
+}
+
 /*      Nav Bar       */
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    float:right;
+
+}
+nav li {
+    display: inline;
+    text-align: center;
+    padding: 22px 8px;
+    
+}
+
+
+
+/*      Logo          
+#logo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 105px;
+}
