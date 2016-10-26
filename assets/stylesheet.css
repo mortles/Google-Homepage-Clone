@@ -92,8 +92,32 @@ form {
   display:block;
   margin: auto;
   width: 100%;
+  padding-bottom: 10px;
 
 }
 .btn {
   margin: 5px;
+}
+/*      Footer       */
+footer ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #F2F2F2;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer li {
+    float: left;
+}
+
+footer li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+footer .rightFooter {
+  float: right;
 }
